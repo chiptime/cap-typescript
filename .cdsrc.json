@@ -1,0 +1,9 @@
+{
+    "[local]": {
+        "requires": {
+            "TaskService": {
+                "impl": "dist/index.js"
+            }
+        }
+    }
+}

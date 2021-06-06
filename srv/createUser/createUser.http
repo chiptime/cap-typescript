@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/user/User HTTP/1.1
+Accept: application/json;charset=UTF-8;IEEE754Compatible=true
+Content-Type: application/json;IEEE754Compatible=true
+
+###
+POST http://localhost:3000/user/User HTTP/1.1
+Accept: application/json;charset=UTF-8;IEEE754Compatible=true
+Content-Type: application/json;IEEE754Compatible=true
+
+{
+    "ID": 0,
+    "fullName": "Bruno Ivan Silva Narro"
+}

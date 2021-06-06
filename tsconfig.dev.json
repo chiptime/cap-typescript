@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "sourceMap": false,
+    "outDir": "./gen/srv"
+  },
+  "include": [
+    "srv",
+    "types"
+  ]
+}

@@ -1,0 +1,37 @@
+export interface ODataRequest {
+    _: any;
+    _errors: any;
+    _messages: any;
+    _model: any;
+    _path: any;
+    _query: any;
+    _queryOptions: any;
+    _tx: any;
+    _uriInfo: any;
+    attr: any;
+    context: any;
+    data: any;
+    emitter: any;
+    entity: any;
+    event: string;
+    getUriInfo: any;
+    getUrlObject: any;
+    headers: any;
+    id: any;
+    isConcurrentResource: any;
+    isConditional: any;
+    locale: any;
+    method: string;
+    params: any;
+    path: string;
+    query: any;
+    req: any;
+    res: any;
+    run: any;
+    target: any;
+    tenant: any;
+    timestamp: any;
+    transactions: any;
+    user: any;
+    validateEtag: any;
+}
